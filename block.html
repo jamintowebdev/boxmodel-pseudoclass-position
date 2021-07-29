@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pseudo box</title>
+
+    <style>
+        h1 {
+            background-color: red;
+            border: 35px solid yellow;
+            padding: 10px;
+        }
+
+        h1 {
+            background-color: blue;
+        }
+
+        h4 {
+            background: gray;
+            width: 550px;
+            height: 250px;
+            text-align: center;
+            display: block;
+            padding: 40px;
+            margin-top: 100px;
+            padding-top: 50px;
+            border: 50px solid yellow;
+            border-image: url(/border-image.jpg);
+            border-image-slice: 50;
+        }
+
+        p {
+            background-color: chartreuse;
+        }
+
+        span {
+            background-color: lawngreen;
+            width: 250px;
+            height: 250px;
+            margin-left: 20px;
+            margin-right: 25px;
+        }
+
+        div {
+            background-color: lightcoral;
+            width: 300px;
+            height: 250px;
+            padding-top: 35px;
+            margin-top: 25px;
+        }
+
+        a {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Boro Mama</h1>
+    <h1>Boro Khalu</h1>
+
+    <span>ami</span>
+    <span>chuto vai</span>
+    <span>mejo apu</span>
+
+    <p>this is a paragraph</p>
+
+    <a href="www.google.com">Go to google</a>
+    <a href="www.google.com">Go to google</a>
+    <a href="www.google.com">Go to google</a>
+    <a href="www.google.com">Go to google</a>
+    <a href="www.google.com">Go to google</a>
+    <a href="www.google.com">Go to google</a>
+    <!-- 
+        **** In inline element, we can not add width and height.***************
+****** in inline element , margin works only left and right ******
+***** in inline , margin does not work to the top to bottom ************
+****** If we want to make it works with height and width and margin top and bottom
+Wh have to make the inline elements display to block… then all things will works
+ *******
+
+
+    -->
+
+    <ul>
+        <li>items-1</li>
+        <li>items-2</li>
+        <li>items-3</li>
+    </ul>
+
+    <div>
+        <h2>Room-1</h2>
+        <p>staying some one</p>
+    </div>
+    <div>
+        <h2>Room-2</h2>
+        <p>staying some one</p>
+    </div>
+    <div>
+        <h2>Room-3</h2>
+        <p>staying some one</p>
+    </div>
+
+    <h4>Here we will write a box</h4>
+</body>
+
+</html>
