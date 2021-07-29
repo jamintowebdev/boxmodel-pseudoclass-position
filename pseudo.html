@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1 {
+            color: bisque;
+        }
+
+        h1:hover {
+            color: skyblue;
+            background-color: seagreen;
+            margin: 50px;
+            padding: 50px;
+            font-size: 50px;
+            font-weight: 700;
+        }
+
+        .middleMan:focus {
+            color: blue;
+            font-weight: 700;
+            font-size: 50px;
+            width: 300px;
+            height: 100px;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        li:first-child {
+            color: red;
+        }
+
+        li:last-child {
+            background-color: cornflowerblue;
+        }
+
+        li:nth-child(2n+1) {
+            color: crimson;
+            background-color: darkorange;
+        }
+
+        /* ********* Pseudo Elements ****** */
+
+        h3::before {
+            content: "Hello guys - ";
+            color: green;
+            font-size: 35px;
+        }
+
+        .special::after {
+            content: " Hello gals";
+            color: red;
+            font-size: 30px;
+        }
+
+        
+    </style>
+
+</head>
+
+
+<body>
+    <!-- Pseudo Classes Part: -->
+
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="middleMan" type="text">
+    <input type="text">
+
+    <br>
+
+    <a href="https://www.google.com/">Google mama te jao</a>
+    <a href="https://www.brandnew.ee/">Never Visited</a>
+    <a href="https://www.google.com/">Programming Hero te jao</a>
+
+    <br>
+
+    <h3>middle size header-1</h3>
+    <h3>middle size header-2</h3>
+    <h3>middle size header-3</h3>
+    <h3 class="special">middle size header-4</h3>
+    <h3>middle size header-5</h3>
+    <h3>middle size header-6</h3>
+
+    <ul>
+        <li>Alia</li>
+        <li>Dalia</li>
+        <li>Malia</li>
+        <li>Kalia</li>
+        <li>Bedisha</li>
+        <li>Potatau</li>
+        <li>Maria</li>
+        <li>Churiya</li>
+        <li>Faria</li>
+
+    </ul>
+
+</body>
+
+</html>
